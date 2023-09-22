@@ -11,7 +11,7 @@ import {
 } from "../src/table-names";
 import { tableInfo, indexList } from "../src/queries/table-info";
 
-const CREATE_MOVIES_TABLE = `CREATE TABLE ${MOVIES}(
+const CREATE_MOVIES_TABLE = `CREATE TABLE ${MOVIES} (
   id integer NOT NULL PRIMARY KEY,
   imdb_id text NOT NULL,
   popularity real NOT NULL,
